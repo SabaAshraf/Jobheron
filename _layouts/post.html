@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<section id="post-main-wrapper">
+	<div id="post-wrapper">
+		<div class="inner-container">
+			<h2>{{ page.title }}</h2>
+			<span>By <strong class="name">{{ page.author }}</strong></span>
+			<p>{{ page.date | date : "%B %e,%Y"}}</p>
+			<div><img src="{{ page.image }}" alt=""></div>
+			{{ content }} 	
+		</div>
+	</div>
+	</div>
+</section>

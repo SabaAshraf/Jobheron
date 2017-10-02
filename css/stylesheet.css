@@ -1,0 +1,77 @@
+.inner-container{
+	width: 960px;
+	margin: 0 auto;
+}
+.header{
+	padding: 24px;
+    overflow: hidden;
+}
+.contact-number{
+	margin-top: 20px;
+}
+.menu{
+	margin-top: 10px;
+}
+.contact-number span{
+	font-size: 19px;
+    font-weight: 500;
+    padding-left: 10px;
+    color: #37474f;
+}
+ul{
+	list-style-type: none;
+	padding: 0;
+}
+.menu .navbar ul li a{
+	font-family:'Montserrat';
+    font-weight: 500;
+    font-size: 19px;
+    text-decoration: none;
+    color: #90a4ae;
+    line-height: 40px;
+    padding: 8px;
+}
+.blue-btn {
+	border: none;
+    background-color: #0ca8d7!important;
+    color: white!important;
+    padding: 0px 22px !important;
+    color: white;
+    line-height: 52px!important;
+    font-family:'Montserrat';
+    font-size: 16px!important;
+    font-weight: 600;
+    letter-spacing: .5px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    box-shadow: rgba(0,0,0,0.137255) 0px 2px 2px 0px, rgba(0,0,0,0.117647) 0px 1px 5px 0px, rgba(0,0,0,0.2) 0px 3px 1px -2px;
+    border-radius: 4px;
+    margin-left: 8px;
+    margin-top: -5px;
+   
+}
+.inner-container h2 a{
+	font-size: 34px!important;
+    line-height: 110%;
+    margin: 1.78rem 0 1.424rem 0;
+    color: #333;
+    
+}
+.inner-container h2 a:hover{
+	text-decoration: none;
+	color: #4f4f4f!important;
+}
+.inner-container span .name{
+	color: #0ca8d7 !important;
+}
+
+/**** Sticky Header*****/
+.fixed-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid #bbbaba;
+    background-color: #fff;
+}
